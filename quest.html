@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>
+			Web Quest: Adventure Page
+		</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<nav>
+			<menu class="nav-menu">
+				<li	class="menu-item">
+					<a href="index.html">Home</a>
+				</li>
+				<li	class="menu-item">
+					<a href="quest.html">The Adventure</a>
+				</li>
+				<li	class="menu-item">
+					<a href="skills.html">Party Skills</a>
+				</li>
+				<li	class="menu-item">
+					<a href="party.html">The Party</a>
+				</li>
+			</menu>
+		</nav>
+		<main>
+			<form action="" method="post">
+				<fieldset name="playerFeedback">
+					<legend>Player Feedback</legend>
+					<h2	class="sub-heading">Your Adventure Lies Ahead!</h2>
+					<p class="intro-text">
+						We're still working on this game, so if you're interested in receiving updates just leave your name, email, and what updates you want to receive.
+					</p>
+					<div class="flex-container1">
+						<label for="playerName">First and Last Name</label>
+						<input type="text" name="player-name" id="playerName">
+					</div>
+					<div class="flex-container2">
+						<label for="playerEmail">Email</label>
+						<input type="text" name="player-email" id="playerEmail" placeholder="email@domain.com">
+					</div>
+					<div class="flex-container3">
+						<label for=releaseNews>Release News</label>
+						<input type="checkbox" name="release-news" id="releaseNews">
+						<label for="updateNews">Feature Updates</label>
+						<input type="checkbox" name="update-news" id="updateNews">
+						<label for="devBlog">Dev Blog Entries</label>
+						<input type="checkbox" name="dev-blog" id="devBlog">
+					</div>
+					<div class="flex-container4">
+						<label for="suggestions">Suggestions on what you want to see in a game like this:</label><br>
+						<textarea name="suggestions" id="suggestions" rows="4" cols="40"></textarea>
+					</div>
+					<div class="flex-container5">
+						<button type="submit" id="submitButton">Submit</button>
+					</div>
+				</fieldset>
+			</form>
+		</main>
+	</body>
+</html>
